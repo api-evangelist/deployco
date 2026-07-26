@@ -1,8 +1,25 @@
 aid: deployco
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/deployco.png
 name: Deployco
-description: 'Deployco is a company surfaced as a portfolio company of emergence-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: enterprise-software. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Deployco (the OpenAI Deployment Company, DeployCo) is a ~$10B enterprise-AI joint venture
+  launched by OpenAI in May 2026 to help organizations put frontier AI into production. It is an
+  engineering-heavy consulting and deployment business: Forward Deployed Engineers and Deployment
+  Specialists embed in client companies to connect OpenAI models to their data, tools, controls, and
+  core workflows (RAG, fine-tuning/distillation, infrastructure, and safety/compliance). It is backed
+  by a founding-investor group including Emergence Capital. DeployCo is a services/consulting entity
+  and does not currently publish a public API, developer portal, OpenAPI spec, or SDKs of its own; any
+  API surface it uses is the OpenAI platform. No API artifacts are available to enrich at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/deployco/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,24 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+x-api-surface: none
+x-api-surface-reason: 'Consulting/deployment joint venture; no public API, developer portal, OpenAPI, or SDKs of its own.'
 tags:
 - Company
 - Enterprise Software
+- Artificial Intelligence
+- Consulting
+- AI Deployment
+- OpenAI
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
